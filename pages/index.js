@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className='pattern h-screen flex justify-center'>
 
-        <h1 className='text-invert text-center self-center text-[15rem] font-black text-inverted leading-[100%]'>Oliver Mansfield Digital</h1>
+        <h1 className='text-invert text-center self-center text-[15rem] font-black text-inverted leading-[100%]'>Oliver Mansfield Digital.</h1>
 
       </main>
     </div>
