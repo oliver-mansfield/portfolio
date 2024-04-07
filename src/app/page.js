@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,6 +24,38 @@ export default function Home() {
 
         </div>
       </section>
+
+
+      <section className="px-8 py-16 max-w-[1200px]">
+        <div className="pb-8">
+          <h2 className="font-serif text-5xl text-grayLight inline-block pr-4">Selected Projects</h2>
+          <span className="font-serif text-grayLight text-lg">2016 - 2024</span>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+          <Link href="/secondskin">
+            <div className="bg-grayLight p-4">
+              <h3 className="font-serif text-4xl inline-block h-28">Second Skin</h3>
+              <p>Headless eCommerce. Design and Build.</p>
+              <p className="text-right">View Project</p>
+            </div>
+          </Link>
+
+
+          <div className="bg-grayLight p-4">
+            <h3 className="font-serif text-4xl inline-block h-28">Green Energy Advice</h3>
+            <p>Headless eCommerce. Design and Build.</p>
+            <p className="text-right">View Project</p>
+          </div>
+
+
+
+        </div>
+
+      </section>
+
+
     </main>
   );
 }
