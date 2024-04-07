@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import ProjectCard from "@/components/ProjectCard";
+
 
 export default function Home() {
   return (
@@ -33,14 +33,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-
-          <Link href="/secondskin">
-            <div className="bg-grayLight p-4">
-              <h3 className="font-serif text-4xl inline-block h-28">Second Skin</h3>
-              <p>Headless eCommerce. Design and Build.</p>
-              <p className="text-right">View Project</p>
-            </div>
-          </Link>
+          <ProjectCard />
 
 
           <div className="bg-grayLight p-4">
