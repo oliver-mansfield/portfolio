@@ -11,6 +11,10 @@ module.exports = {
         sans: ["Inter var", "Inter", "sans-serif"],
         serif: ["var(--font-eb-garamond)", "EB Garamond", "serif"],
       },
+      colors: {
+        grayDark: "#3E3E3E",
+        grayLight: "#EAEAEA",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
