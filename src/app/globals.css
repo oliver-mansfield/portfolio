@@ -34,4 +34,15 @@ body {
   .perspective {
     perspective: 500px;
   }
+
+  .rotated {
+    transform: rotate(358deg) rotateY(8deg) rotateX(21deg);
+    transition: 0.1s;
+  }
+
+  .project-card:hover .rotated {
+    transform: rotate(358deg) rotateY(-8deg) rotateX(21deg);
+    transition: 0.1s;
+
+  }
 }
