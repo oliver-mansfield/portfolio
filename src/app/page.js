@@ -1,11 +1,10 @@
 import ProjectCard from "@/components/ProjectCard";
 
-
 export default function Home() {
   return (
-    <main className="p-4 bg-grayDark">
-      <section className='px-8'>
-        <div className='p-8 md:pt-36 bg-grayLight md:max-w-[800px] md:grid md:grid-cols-2 md:gap-4'>
+    <main>
+      <section>
+        <div className='p-8 md:pt-36 bg-grayLight md:max-w-[800px] border-[1px] border-black md:grid md:grid-cols-2 md:gap-4'>
 
           <div className="">
             <h1 className='font-serif text-5xl mb-4'>Oliver Mansfield</h1>
@@ -33,15 +32,10 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <ProjectCard />
-          <ProjectCard />
+          <ProjectCard link="/second-skin" title="Second Skin" text="Headless eCommerce. Design and build" img="/images/secondskin-thumb.png" />
+          <ProjectCard link="/mod-onboarding" title="Ministry of Defence" text="New Recruit sign up forms for the Ministry of Defence" img="/images/mod-thumb.png" />
+          <ProjectCard link="/morrisons" title="Morrisons" text="Modular Email Templates for Supermarket CRM" img="/images/morrisons-thumb.png" />
 
-          <ProjectCard />
-
-          <ProjectCard />
-
-          <ProjectCard />
-          <ProjectCard />
 
 
 
