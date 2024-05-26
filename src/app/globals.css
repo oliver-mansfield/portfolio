@@ -96,3 +96,13 @@ body {
     @apply inline-block;
   }
 }
+
+.col-12-container {
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
+  margin: 0 auto;
+}
+
+

@@ -5,7 +5,7 @@ export default function ProjectCard({ link, title, text, img }) {
 
 
   return (
-    <Link href={link} className='mt-8 project-card col-span-4'>
+    <Link href={link} className='mt-8 project-card col-span-12 sm:col-span-6 lg:col-span-4'>
       <div className="bg-grayLight p-4 border-[1px] border-black ">
         <div className='perspective flex justify-center'>
           <Image

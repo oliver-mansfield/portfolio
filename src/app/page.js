@@ -33,11 +33,11 @@ export default function Home() {
       </section> */}
 
       <section>
-        <div className='m-auto grid gap-4 grid-cols-12 max-w-[1200px]'>
+        <div className='col-12-container'>
 
-          <h1 className='font-nunito text-[6em] leading-[0.8] mt-20 text-grayLight col-start-1 col-end-12'>Oliver Mansfield</h1>
+          <h1 className='font-nunito text-[3rem] lg:text-[6em] leading-[0.8] mt-20 text-grayLight col-start-1 col-end-12'>Oliver Mansfield</h1>
 
-          <div className="pt-16 md:pt-20 col-start-4 col-end-8">
+          <div className="pt-16 md:pt-20 col-span-12 md:col-start-4 md:col-end-8">
             <p className='pb-4 text-xl indent-12 text-grayLight'>
               Oliver is a developer with a decade of industry experience. Delivering projects for large international clients and smaller boutique shops.
             </p>
@@ -52,7 +52,7 @@ export default function Home() {
 
       <section className="py-16 max-w-[1200px] m-auto">
         <div className="pb-8">
-          <h2 className="text-6xl text-grayLight inline-block pr-4">Selected Projects</h2>
+          <h2 className="text-3xl md:text-4xl text-grayLight inline-block pr-4">Selected Projects</h2>
           <span className="font-serif text-grayLight text-lg">2016 - 2024</span>
         </div>
 
