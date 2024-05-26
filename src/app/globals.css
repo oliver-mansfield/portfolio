@@ -32,14 +32,29 @@ body {
     @apply text-grayText;
   }
 
+  h2 {
+    @apply font-nunito;
+  }
+
   h3 {
-    @apply font-sans;
+    @apply font-nunito;
     @apply text-2xl;
-    @apply font-extralight;
-    @apply tracking-wider;
-    @apply leading-10;
+    /* @apply font-extralight; */
+    /* @apply tracking-wider; */
+    @apply leading-4;
     /* @apply uppercase; */
   }
+
+  h4 {
+    @apply font-nunito;
+    @apply text-2xl;
+    @apply font-bold;
+    @apply tracking-widest;
+    @apply leading-10;
+    @apply uppercase
+    /* @apply uppercase; */
+  }
+
 
   .text-balance {
     text-wrap: balance;

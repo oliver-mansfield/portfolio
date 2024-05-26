@@ -9,7 +9,7 @@ export default function Page() {
         <div className="pt-40 pb-20 px-8">
 
           <div className='mb-4'>
-            <h1 className="font-serif text-8xl mb-8">Second Skin</h1>
+            <h1 className="font-nunito text-8xl mb-8">Second Skin</h1>
             <p className="text-xl">New Recruit onboarding forms.</p>
           </div>
 
@@ -30,23 +30,23 @@ export default function Page() {
       </section>
 
 
-      <section className='md:max-w-[1200px] px-8'>
+      <section className='md:max-w-[1200px] px-8 mb-20'>
         <div className="border-black border-[2px] rounded-md overflow-hidden">
-
-
-          <video autoPlay={true} loop={true}>
-            {/* <source src="/media/cc0-videos/flower.webm" type="video/webm" /> */}
-
+          <video autoPlay={true} loop={true} >
             <source src="/images/conor-movie.mp4" type="video/mp4" />
-
           </video>
-
-
-
         </div>
       </section>
 
+      <section className='md:max-w-[1200px]'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-20 mb-20'>
 
+          <Image src="/images/secondskin-mobile1.png" alt="Morrisons" width="330" height="589" className='max-w-[300px] border-black border-[2px] rounded-md overflow-hidden' />
+
+          <Image src="/images/secondskin-mobile2.png" alt="Morrisons" width="330" height="589" className='max-w-[300px] border-black border-[2px] rounded-md overflow-hidden' />
+
+        </div>
+      </section>
 
 
     </main>

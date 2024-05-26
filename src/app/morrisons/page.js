@@ -8,7 +8,7 @@ export default function Page() {
         <div className="pt-40 pb-20">
 
           <div className='mb-4'>
-            <h1 className="font-serif text-8xl mb-8">Morrisons</h1>
+            <h1 className="font-nunito font-bold text-8xl mb-8">Morrisons</h1>
             <p className="text-xl">Modular e-mail templates for supermarket e-commerce eCRM.</p>
           </div>
 
@@ -27,25 +27,26 @@ export default function Page() {
         </div>
       </section>
 
-      <section className='md:max-w-[1200px]'>
+      <section className='md:max-w-[1200px] mb-20'>
         <div className="border-black border-[2px] rounded-md overflow-hidden">
           <Image src="/images/morrisons-main.png" alt="Morrisons" width="1200" height="500" className='w-full' />
         </div>
       </section>
 
-      <section className='md:max-w-[1200px]'>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-20 py-20 px-20'>
+      <section className='bg-grayMid w-full flex justify-center mb-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:max-w-[1200px] gap-20 py-20'>
           <div>
-            <h3>The challenge</h3>
+            <h4>The challenge</h4>
             <p>Morrisons supermarket needed an email template which was flexible enough to fulfil their eCRM ambitions. Whether it was alerting customers to an instore event or sending an order confirmation, the client needed to communicate a variety messages to their customers.</p>
           </div>
 
           <div>
-            <h3>The solution</h3>
+            <h4>The solution</h4>
             <p>
               Working with our design team, I built a suite of layout modules, intended to be assembled by the client’s in-house team into a template within their content management system. The client selects the modules needed to build their layout, then adds their content. The result is a responsive HTML email which can convey any message the client wishes. Every HTML email produced is built to render consistently across all supported mobile devices and email applications.
             </p>
           </div>
+
         </div>
       </section>
 

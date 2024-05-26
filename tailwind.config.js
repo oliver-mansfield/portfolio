@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter var", "Inter", "sans-serif"],
-        serif: ["var(--font-eb-garamond)", "EB Garamond", "serif"],
+        // serif: ["var(--font-nunito)", "Nunito", "sans-serif"],
+        // fantasy: ["var(--font-jacquard_12)", "Jacquard_12", "fantasy"],
+        nunito: ["var(--font-nunito)", "Nunito", "sans-serif"],
       },
       colors: {
         grayDarker: "#3E3E3E",

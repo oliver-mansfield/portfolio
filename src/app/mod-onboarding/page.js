@@ -9,7 +9,7 @@ export default function Page() {
         <div className="pt-40 pb-20 px-8">
 
           <div className='mb-4'>
-            <h1 className="font-serif text-8xl mb-8">Royal Navy &<br />Royal Air Force</h1>
+            <h1 className="font-nunito font-bold text-8xl mb-8">Royal Navy &<br />Royal Air Force</h1>
             <p className="text-xl">New Recruit onboarding forms.</p>
           </div>
 
