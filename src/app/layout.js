@@ -1,4 +1,6 @@
 import { Inter, EB_Garamond, Nunito } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
+
 
 import "./globals.css";
 import HeaderBar from "@/components/HeaderBar";
@@ -34,6 +36,7 @@ export default function RootLayout({ children }) {
       <body className={`${ebGaramond.variable} ${inter.variable} ${nunito.variable}   bg-grayDark p-2 md:p-4`}>
         <div>
           <HeaderBar />
+          <Analytics />
           {children}
         </div>
       </body>
