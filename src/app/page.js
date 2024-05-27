@@ -2,7 +2,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
-    <main className="bg-grayLight border-[1px] border-black border-t-0">
+    <main className="bg-grayLight border-[1px] border-black border-t-0 p-2 lg:p-4">
       {/* <section>
 
         <h1 className='font-nunito text-[6em] leading-[0.8] mb-4 text-grayLight'>Oliver Mansfield</h1>
@@ -57,7 +57,7 @@ export default function Home() {
 
       <section className="py-16 max-w-[1200px] m-auto">
         <div className="pb-8">
-          <h2 className="text-3xl md:text-4xl text-grayDarker inline-block pr-4">Selected Projects</h2>
+          <h4>Selected projects</h4>
           <span className="font-serif text-grayLight text-lg">2016 - 2024</span>
         </div>
 

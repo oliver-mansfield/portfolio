@@ -31,8 +31,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${ebGaramond.variable} ${inter.variable} ${nunito.variable}   bg-grayDark`}>
-        <div className="p-4">
+      <body className={`${ebGaramond.variable} ${inter.variable} ${nunito.variable}   bg-grayDark p-2 md:p-4`}>
+        <div>
           <HeaderBar />
           {children}
         </div>

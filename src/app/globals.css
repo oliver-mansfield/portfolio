@@ -47,8 +47,9 @@ body {
 
   h4 {
     @apply font-nunito;
-    @apply text-2xl;
-    @apply font-bold;
+    @apply text-lg;
+    @apply md:text-2xl;
+    /* @apply font-bold; */
     @apply tracking-widest;
     @apply leading-10;
     @apply uppercase
