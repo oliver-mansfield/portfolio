@@ -43,7 +43,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className='md:max-w-[1200px px-8]'>
+      <section className='md:max-w-[1200px]'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-20 py-20 px-20'>
           <div>
             <h3>The challenge</h3>

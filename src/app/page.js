@@ -2,7 +2,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-grayLight border-[1px] border-black border-t-0">
       {/* <section>
 
         <h1 className='font-nunito text-[6em] leading-[0.8] mb-4 text-grayLight'>Oliver Mansfield</h1>
@@ -35,16 +35,21 @@ export default function Home() {
       <section>
         <div className='col-12-container'>
 
-          <h1 className='font-nunito text-[3rem] lg:text-[6em] leading-[0.8] mt-20 text-grayLight col-start-1 col-end-12'>Oliver Mansfield</h1>
+          <div className="col-start-1 col-end-12">
+            <h1 className='font-nunito text-[3rem] lg:text-[6em] leading-[0.8] mt-20 text-grayDarker'>Oliver Mansfield</h1>
+            <h2 className="text-grayDarker text-[2rem] leading-[0.8] lg:text-[3em] mt-4 lg:mt-8">Senior Front End Developer</h2>
+          </div>
 
-          <div className="pt-16 md:pt-20 col-span-12 md:col-start-4 md:col-end-8">
-            <p className='pb-4 text-xl indent-12 text-grayLight'>
+
+          <div className="pt-16 md:pt-20 col-span-12 md:col-start-1 md:col-end-5">
+            <p className='pb-4 text-xl indent-12 text-grayDarker'>
               Oliver is a developer with a decade of industry experience. Delivering projects for large international clients and smaller boutique shops.
             </p>
-            <p className="text-grayLight">
+            <p className="text-grayDarker">
               As confident in the UI Design phase as he is in the Front End Build. Oliver is a developer with a decade of industry experience. Delivering projects for large international clients and smaller boutique shops.
             </p>
           </div>
+
         </div>
 
       </section>
@@ -52,19 +57,16 @@ export default function Home() {
 
       <section className="py-16 max-w-[1200px] m-auto">
         <div className="pb-8">
-          <h2 className="text-3xl md:text-4xl text-grayLight inline-block pr-4">Selected Projects</h2>
+          <h2 className="text-3xl md:text-4xl text-grayDarker inline-block pr-4">Selected Projects</h2>
           <span className="font-serif text-grayLight text-lg">2016 - 2024</span>
         </div>
 
-        <div className='m-auto grid gap-4 grid-cols-12 max-w-[1200px]'>
+        <div className='col-12-container gap-8'>
 
           <ProjectCard link="/secondskin" title="Second Skin" text="Headless eCommerce. Design and build" img="/images/secondskin-thumb.png" />
           <ProjectCard link="/mod-onboarding" title="Ministry of Defence" text="New Recruit sign up forms for the Ministry of Defence" img="/images/mod-thumb.png" />
           <ProjectCard link="/morrisons" title="Morrisons" text="Modular Email Templates for Supermarket CRM" img="/images/morrisons-thumb.png" />
 
-          <ProjectCard link="/secondskin" title="Second Skin" text="Headless eCommerce. Design and build" img="/images/secondskin-thumb.png" />
-          <ProjectCard link="/mod-onboarding" title="Ministry of Defence" text="New Recruit sign up forms for the Ministry of Defence" img="/images/mod-thumb.png" />
-          <ProjectCard link="/morrisons" title="Morrisons" text="Modular Email Templates for Supermarket CRM" img="/images/morrisons-thumb.png" />
 
 
 
