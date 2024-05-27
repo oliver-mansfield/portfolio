@@ -2,7 +2,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
-    <main className="bg-grayLight border-[1px] border-black border-t-0 p-2 lg:p-4">
+    <main className="bg-grayLight border-[1px] border-black border-t-0 p-4">
       {/* <section>
 
         <h1 className='font-nunito text-[6em] leading-[0.8] mb-4 text-grayLight'>Oliver Mansfield</h1>

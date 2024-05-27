@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <main className="border-[1px] border-black border-t-0 bg-grayLight flex items-center flex-col">
 
-      <section className='w-full md:max-w-[1200px] p-2 md:p-4'>
+      <section className='w-full md:max-w-[1200px] p-4'>
 
         <div className='pt-10 lg:pt-20 pb-10'>
           <h1 className="font-nunito font-bold text-5xl md:text-8xl mb-4">Morrisons</h1>
@@ -32,7 +32,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className='md:max-w-[1200px] mb-20 p-2 md:p-4'>
+      <section className='md:max-w-[1200px] mb-20 p-4'>
         <div className="border-black border-[2px] rounded-md overflow-hidden">
           <Image src="/images/morrisons-main.png" alt="Morrisons" width="1200" height="500" className='w-full' />
         </div>
@@ -41,7 +41,7 @@ export default function Page() {
 
 
       <section className='bg-grayMid w-full flex justify-center mb-20'>
-        <div className='grid grid-cols-1 md:grid-cols-2 md:max-w-[1200px] gap-20 py-20 px-2 md:px-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:max-w-[1200px] gap-20 py-20 px-4'>
           <div>
             <h4>The challenge</h4>
             <p>Morrisons supermarket needed an email template which was flexible enough to fulfil their eCRM ambitions. Whether it was alerting customers to an instore event or sending an order confirmation, the client needed to communicate a variety messages to their customers.</p>
