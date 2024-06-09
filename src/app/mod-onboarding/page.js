@@ -42,10 +42,10 @@ export default function Page() {
         <div className='md:flex justify-between'>
 
           <div className='md:w-1/2 mb-4'>
-            <Image src="/images/mod-tablet1.png" alt="MOD Forms" width={690} height={526} quality={100} className='border-black border-[2px] rounded-md overflow-hidden' />
+            <Image src="/images/mod-tablet1.png" alt="MOD Forms" width={690} height={526} quality={100} className='border-black border-[6px] rounded-md overflow-hidden' />
           </div>
           <div className='md:w-1/2'>
-            <Image src="/images/mod-mobile1.png" alt="MOD Forms" width={350} height={526} quality={100} className='border-black border-[2px] rounded-md overflow-hidden mx-auto' />
+            <Image src="/images/mod-mobile1.png" alt="MOD Forms" width={350} height={526} quality={100} className='border-black border-[6px] rounded-md overflow-hidden mx-auto' />
           </div>
         </div>
       </section>
@@ -58,7 +58,7 @@ export default function Page() {
           </div>
 
           <div>
-            <h4>The solution</h4>
+            <h4>The solution</h4> 
             <p>To accomplish this, I built a completely new, fully responsive user interface on top of the existing back-end solution. The resulting website provides potential recruits with an improved user flow, reducing the effort required to complete the lengthy form. The website is highly usable and performs well across all modern desktop and mobile devices.</p>
           </div>
 

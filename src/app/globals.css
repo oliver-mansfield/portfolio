@@ -32,6 +32,11 @@ body {
     @apply text-grayText;
   }
 
+  p {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+  }
+
   h2 {
     @apply font-nunito;
   }
@@ -108,4 +113,9 @@ body {
   margin: 0 auto;
 }
 
-
+.screenshot-frame-mobile {
+  border: 10px solid;
+  @apply border-grayDarker;
+  /* border-bottom: 20px solid; */
+  border-radius: 10px ;
+}

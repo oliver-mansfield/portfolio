@@ -31,7 +31,7 @@ export default function Page() {
 
 
       <section className='md:max-w-[1200px] px-8 mb-20'>
-        <div className="border-black border-[2px] rounded-md overflow-hidden">
+        <div className="border-black border-[6px] rounded-md overflow-hidden">
           <video autoPlay={true} loop={true} >
             <source src="/images/conor-movie.mp4" type="video/mp4" />
           </video>
@@ -41,9 +41,9 @@ export default function Page() {
       <section className='md:max-w-[1200px]'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-20 mb-20'>
 
-          <Image src="/images/secondskin-mobile1.png" alt="Morrisons" width="330" height="589" className='max-w-[300px] border-black border-[2px] rounded-md overflow-hidden' />
+          <Image src="/images/secondskin-mobile1.png" alt="Morrisons" width="330" height="589" className='max-w-[300px] border-black border-[6px] rounded-md overflow-hidden' />
 
-          <Image src="/images/secondskin-mobile2.png" alt="Morrisons" width="330" height="589" className='max-w-[300px] border-black border-[2px] rounded-md overflow-hidden' />
+          <Image src="/images/secondskin-mobile2.png" alt="Morrisons" width="330" height="589" className='max-w-[300px] border-black border-[6px] rounded-md overflow-hidden' />
 
         </div>
       </section>

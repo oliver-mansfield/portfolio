@@ -1,3 +1,4 @@
+import ExperienceList from "@/components/ExperienceList";
 import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
@@ -41,7 +42,7 @@ export default function Home() {
           </div>
 
 
-          <div className="pt-16 md:pt-20 col-span-12 md:col-start-1 md:col-end-5">
+          <div className="pt-16 md:pt-20 col-span-12 md:col-start-8 md:col-end-12">
             <p className='pb-4 text-xl indent-12 text-grayDarker'>
               Oliver is a developer with a decade of industry experience. Delivering projects for large international clients and smaller boutique shops.
             </p>
@@ -67,23 +68,20 @@ export default function Home() {
           <ProjectCard link="/mod-onboarding" title="Ministry of Defence" text="New Recruit sign up forms for the Ministry of Defence" img="/images/mod-thumb.png" />
           <ProjectCard link="/morrisons" title="Morrisons" text="Modular Email Templates for Supermarket CRM" img="/images/morrisons-thumb.png" />
 
-
-
-
-
-
-          {/* <div className="bg-grayLight p-4">
-            <h3 className="font-serif text-4xl inline-block h-28">Green Energy Advice</h3>
-            <p>Headless eCommerce. Design and Build.</p>
-            <p className="text-right">View Project</p>
-          </div> */}
-
-
-
         </div>
 
       </section>
 
+      <section className="py-16 max-w-[1200px] m-auto">
+        <div className="pb-8">
+          <h4>Experience</h4>
+          <span className="font-serif text-grayLight text-lg">2016 - 2024</span>
+        </div>
+
+        <div>
+          <ExperienceList />
+        </div>
+      </section>
 
     </main>
   );

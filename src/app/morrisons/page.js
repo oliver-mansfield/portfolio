@@ -33,7 +33,7 @@ export default function Page() {
       </section>
 
       <section className='md:max-w-[1200px] mb-20 p-4'>
-        <div className="border-black border-[2px] rounded-md overflow-hidden">
+        <div className="screenshot-frame-mobile overflow-hidden">
           <Image src="/images/morrisons-main.png" alt="Morrisons" width="1200" height="500" className='w-full' />
         </div>
       </section>
@@ -64,9 +64,9 @@ export default function Page() {
       <section className='md:max-w-[1200px]'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-20 mb-20'>
 
-          <Image src="/images/morrisons-mobile1.png" alt="Morrisons" width="330" height="589" className='max-w-[300px] border-black border-[2px] rounded-md overflow-hidden' />
+          <Image src="/images/morrisons-mobile1.png" alt="Morrisons" width="330" height="589" className='screenshot-frame-mobile overflow-hidden' />
 
-          <Image src="/images/morrisons-mobile2.png" alt="Morrisons" width="330" height="589" className='max-w-[300px] border-black border-[2px] rounded-md overflow-hidden' />
+          <Image src="/images/morrisons-mobile2.png" alt="Morrisons" width="330" height="589" className='screenshot-frame-mobile overflow-hidden' />
 
         </div>
       </section>
