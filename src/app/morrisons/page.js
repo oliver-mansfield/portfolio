@@ -2,33 +2,53 @@ import Image from 'next/image';
 
 export default function Page() {
   return (
-    <main className="border-[1px] border-black border-t-0 bg-grayLight flex items-center flex-col">
+    <main className="border-[1px] border-black bg-grayLight flex items-center flex-col">
 
-      <section className='w-full md:max-w-[1200px] p-4'>
 
-        <div className='pt-10 lg:pt-20 pb-10'>
+      <section className='w-full md:max-w-[1200px] p-4 mb-8 md:mb-20'>
+
+
+        <div className='pt-10 lg:pt-20 pb-8 md:pb-20'>
           <h1 className="font-nunito font-bold text-5xl md:text-8xl mb-4">Morrisons</h1>
           <p className="text-xl">Modular e-mail templates for supermarket e-commerce eCRM.</p>
         </div>
 
-        <div className=" grid grid-cols-1 md:grid-cols-2 md:gap-20 pb-10">
+        <div className=" grid grid-cols-1 md:grid-cols-12 md:gap-y-4">
 
-          <div className='col-span-1 mb-4 md:mb-0'>
-            <h4 className='md:mb-2'>Features</h4>
-            <ul className='list-disc list-outside pl-4'>
-              <li>Fully responsive, pixel perfection across all devices.</li>
-              <li>Dynamic content for personalisation and targetted marketing.</li>
-              <li>Built as a suite of blocks to be assembled and deployed by a custom CMS.</li>
-            </ul>
+          <div className='md:col-start-1 md:col-end-6 mb-4 md:mb-0'>
+            <div className='grid gap-y-3 grid-cols-[150px_auto]'>
+
+              <p className='text-gray-400'>Client</p>
+              <p>Morrisons Supermarket</p>
+
+              <p className='text-gray-400'>Published</p>
+              <p>2017</p>
+
+              <p className='text-gray-400'>My role</p>
+              <div>
+                <ul>
+                  <li><p>Front End Build</p></li>
+                  <li><p>CMS Intergration</p></li>
+                  <li><p>Cross Browser / Device Testing</p></li>
+                </ul>
+              </div>
+
+              <p className='text-gray-400'>Tech used</p>
+              <div>
+                <ul>
+                  <li><p>HTML</p></li>
+                  <li><p>CSS / SCSS</p></li>
+                  <li><p>Custom CMS</p></li>
+                </ul>
+              </div>
+
+            </div>
           </div>
 
-          <div className='col-span-1'>
-            <h4 className='md:mb-2'>Tech used</h4>
-            <span className="tech-stack-pill">HTML</span>
-            <span className="tech-stack-pill">SCSS</span>
-            <span className="tech-stack-pill">Custom CMS</span>
+          <div className='md:col-start-7 md:col-end-13'>
+            <p className='md:text-xl leading-9'>Building visually appealing e-mails can be tricky. Rendering bugs are common, and testing is time consuming. We want to give our designers creative freedom, but need to acknowledge limitations of the format.</p>
+            <p className='md:text-xl leading-9 mt-4'>Layout modules have to be rigorously tested on every mobile device before handing over to the client. Sending out broken marketing emails can damage a company&apos;s reputation.</p>
           </div>
-
         </div>
       </section>
 
@@ -40,7 +60,7 @@ export default function Page() {
 
 
 
-      <section className='bg-grayMid w-full flex justify-center mb-20'>
+      <section className='w-full md:max-w-[1200px] p-4 mb-8 md:mb-20'>
         <div className='grid grid-cols-1 md:grid-cols-2 md:max-w-[1200px] gap-20 py-20 px-4'>
           <div>
             <h4>The challenge</h4>

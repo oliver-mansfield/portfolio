@@ -3,7 +3,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
-    <main className="bg-grayLight border-[1px] border-black border-t-0 p-4">
+    <main className="bg-grayLight border-[1px] border-black p-4">
       {/* <section>
 
         <h1 className='font-nunito text-[6em] leading-[0.8] mb-4 text-grayLight'>Oliver Mansfield</h1>
@@ -37,8 +37,8 @@ export default function Home() {
         <div className='col-12-container'>
 
           <div className="col-start-1 col-end-12">
-            <h1 className='font-nunito text-[3rem] lg:text-[6em] leading-[0.8] mt-20 text-grayDarker'>Oliver Mansfield</h1>
-            <h2 className="text-grayDarker text-[2rem] leading-[0.8] lg:text-[3em] mt-4 lg:mt-8">Senior Front End Developer</h2>
+            <h1 className='font-nunito text-[3rem] lg:text-[6em] leading-[0.8] mt-20 text-blueDark'>Oliver Mansfield</h1>
+            <h2 className="text-blueDark text-[2rem] leading-[0.8] lg:text-[3em] mt-4 lg:mt-8">Senior Front End Developer</h2>
           </div>
 
 
@@ -65,7 +65,7 @@ export default function Home() {
         <div className='col-12-container gap-8'>
 
           <ProjectCard link="/secondskin" title="Second Skin" text="Headless eCommerce. Design and build" img="/images/secondskin-thumb.png" />
-          <ProjectCard link="/mod-onboarding" title="Ministry of Defence" text="New Recruit sign up forms for the Ministry of Defence" img="/images/mod-thumb.png" />
+          <ProjectCard link="/ministry-of-defence" title="Ministry of Defence" text="New Recruit sign up forms for the Ministry of Defence" img="/images/mod-thumb.png" />
           <ProjectCard link="/morrisons" title="Morrisons" text="Modular Email Templates for Supermarket CRM" img="/images/morrisons-thumb.png" />
 
         </div>

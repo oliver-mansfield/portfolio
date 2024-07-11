@@ -35,10 +35,14 @@ body {
   p {
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
+    @apply text-gray-700;
   }
 
   h2 {
-    @apply font-nunito;
+    /* @apply font-nunito; */
+    @apply text-xl;
+    @apply font-bold;
+    @apply text-gray-900;
   }
 
   h3 {
@@ -118,4 +122,13 @@ body {
   @apply border-grayDarker;
   /* border-bottom: 20px solid; */
   border-radius: 10px ;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #18c118;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
 }

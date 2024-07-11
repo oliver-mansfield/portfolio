@@ -29,6 +29,8 @@ module.exports = {
         grayMid: '#E9E5E1',
         grayLight: "#F6F3F0",
         grayText: "#46484B",
+        blueLight: "#096BFF",
+        blueDark: "#0922FF",
         neonPurple: "#7E22CE",
       },
       keyframes: {

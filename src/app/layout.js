@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${ebGaramond.variable} ${inter.variable} ${nunito.variable}   bg-grayDark p-2 md:p-4`}>
         <div>
-          <HeaderBar />
+          {/* <HeaderBar /> */}
           <Analytics />
           {children}
         </div>
