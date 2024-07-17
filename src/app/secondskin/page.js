@@ -1,15 +1,16 @@
+import ViewSiteBtn from '@/components/ViewSiteBtn'
 import Image from 'next/image'
 
 export default function Page() {
   return (
-    <main className="border-[1px] border-black bg-grayLight flex items-center flex-col">
+    <main className="border-[1px] border-black border-t-0 bg-grayLight flex items-center flex-col">
 
       <section className='w-full md:max-w-[1200px] p-4 mb-8 md:mb-20'>
 
 
         <div className='pt-10 lg:pt-20 pb-8 md:pb-20'>
           <h1 className="font-nunito font-bold text-5xl md:text-8xl mb-4">Second Skin</h1>
-          <p className="text-xl">A Custom Headless eCommerce Storefront</p>
+          <p className="text-xl">A Custom Headless eCommerce Shopify Storefront</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-12 md:gap-4 pb-10">
@@ -47,11 +48,12 @@ export default function Page() {
           </div>
 
           <div className='md:col-start-7 md:col-end-13'>
-            <p className='text-xl leading-9'>I wanted to explore what was possible with eCommerce UI.
-              More novel experiences will stand out, but if we stray too far from UX patterns that our
-              customers recognise we risk putting a barrier between them and their aims.</p>
+            <p className='text-xl leading-9 mb-4'>I wanted to explore what was possible with eCommerce UI. This is an experimental project for the &apos;Second Skin&apos; collection of rings by Conor Joseph.
+            </p>
+            <p className='text-xl leading-9'>My aim here is to employ layout and animation generally not found in eCommerce. Building in a &apos;headless&apos; fashion allows me unhindered creative control, while providing a robust eCommerce solution.</p>
 
-            <p className='text-xl leading-9'></p>
+            <ViewSiteBtn url='https://conorjoseph-shopify.vercel.app/' text="View the site"></ViewSiteBtn>
+
           </div>
 
         </div>
@@ -78,7 +80,7 @@ export default function Page() {
               <p className='font-lg'>
                 Rather than using a typical Shopify Theme, I built a custom storefront from the ground up. Refered to as &apos;Headless eCommerce&apos;, this gives me total creative and technical control. This is achieved by using Shopify&apos;s GraphQL API to communicate between the decoupled Front End and Back End.
               </p>
-              <Image src="/images/secondskin-shopify-dash.png" alt="Morrisons" width="1020" height="580" className='mt-8 border-black border-[6px] rounded-md overflow-hidden' />
+              <Image src="/images/secondskin-shopify-dash.png" alt="Shopify dashboard showing products" width="1020" height="580" className='mt-8 border-black border-[6px] rounded-md overflow-hidden' />
             </div>
 
             <div className='mb-8 md:mb-20'>
@@ -88,7 +90,7 @@ export default function Page() {
                 When designing, I kept the established eCommerce UX/UI conventions. Users will expect products pages, a cart and a checkout.<br />
                 Departing from the traditional product grid, I opted for a fashion-editorial style layout. This layout showcases the excellent product and model photography side by side.
               </p>
-              <Image src="/images/conor-showcase.png" alt="Morrisons" width="1020" height="785" quality={100} className='mt-8 border-black border-[6px] rounded-md overflow-hidden' />
+              <Image src="/images/conor-showcase.png" alt="Four screenshots of the site design" width="1020" height="785" className='mt-8' />
             </div>
 
             <div className='mb-8 md:mb-20'>
@@ -108,14 +110,18 @@ export default function Page() {
             <div className='mb-8 md:mb-20'>
               <h2 className='mb-4'>GSAP Animation</h2>
 
-              <p className='font-lg mb-4'>
-                The page transitions are orchestrated around network requests. The thumbnail on the search page seamlessly transitions to become the product shot on the product page. The result is an elegant closer look at the product, rather than a harsh page reload. The deceptively difficult part here is animating an image from a dynamic, responsive layout to a fixed position. I used the animation library GSAP to achieve this stand-out effect.
-              </p>
-              <div className="border-black border-[6px] rounded-md overflow-hidden w-[350px] h-[600px]">
-                <video autoPlay loop preload="auto" controls muted className='w-[350px] h-[600px] object-cover'>
-                  <source src="/images/conor-movie-mobile.mp4" type="video/mp4" />
-                </video>
+              <div className='md:grid grid-cols-2 gap-x-12'>
+                <p className='font-lg mb-4'>
+                  The page transitions are orchestrated around network requests. The thumbnail on the search page seamlessly transitions to become the product shot on the product page. The result is an elegant closer look at the product, rather than a harsh page reload. The deceptively difficult part here is animating an image from a dynamic, responsive layout to a fixed position. I used the animation library GSAP to achieve this stand-out effect.
+                </p>
+
+                <div className="border-black border-[6px] rounded-md overflow-hidden w-[240px] h-[400px] lg:w-[300px] lg:h-[510px]">
+                  <video autoPlay loop preload="auto" controls muted className='w-[240px] h-[400px] lg:w-[300px] lg:h-[510px] object-cover'>
+                    <source src="/images/conor-movie-mobile.mp4" type="video/mp4" />
+                  </video>
+                </div>
               </div>
+
             </div>
 
 

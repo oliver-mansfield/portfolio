@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Page() {
   return (
-    <main className="border-[1px] border-black bg-grayLight flex items-center flex-col">
+    <main className="border-[1px] border-black border-t-0 bg-grayLight flex items-center flex-col">
 
 
       <section className='w-full md:max-w-[1200px] p-4 mb-20'>
