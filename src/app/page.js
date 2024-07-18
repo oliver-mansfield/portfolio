@@ -67,6 +67,7 @@ export default function Home() {
           <ProjectCard link="/secondskin" title="Second Skin" text="Headless eCommerce. Design and build" img="/images/secondskin-thumb.png" />
           <ProjectCard link="/ministry-of-defence" title="Ministry of Defence" text="New Recruit sign up forms for the Ministry of Defence" img="/images/mod-thumb.png" />
           <ProjectCard link="/morrisons" title="Morrisons" text="Modular Email Templates for Supermarket CRM" img="/images/morrisons-thumb.png" />
+          <ProjectCard link="/professional-music-technology" title="Professional Music Technology" text="eCommerce build for musical instrument store" img="/images/morrisons-thumb.png" />
 
         </div>
 

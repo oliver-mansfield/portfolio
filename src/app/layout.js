@@ -27,7 +27,7 @@ const nunito = Nunito({
 
 export const metadata = {
   title: "Oliver Mansfield Digital",
-  description: "Portfolio of Oliver Mansfield Digital",
+  description: "Portfolio of Oliver Mansfield Digital"
 };
 
 export default function RootLayout({ children }) {
@@ -36,7 +36,6 @@ export default function RootLayout({ children }) {
       <body className={`${ebGaramond.variable} ${inter.variable} ${nunito.variable} `}>
         <div>
           <HeaderBar />
-
           <div className="bg-grayDark  pl-2 pr-2 pb-2 md:pl-4 md:pr-4 md:pb-4">
             <Analytics />
             {children}
