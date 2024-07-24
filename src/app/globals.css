@@ -83,7 +83,7 @@ body {
   .project-card {
     outline: 0px solid #690EFF;
     transition: 0.1s;
-    max-width:300px;
+    /* max-width:300px; */
   }
 
   .project-card:hover {
@@ -109,13 +109,7 @@ body {
   }
 }
 
-.col-12-container {
-  display: grid;
-  max-width: 1200px;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 1rem;
-  margin: 0 auto;
-}
+
 
 .screenshot-frame-mobile {
   border: 10px solid;
