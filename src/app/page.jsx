@@ -1,38 +1,36 @@
-import ExperienceList from "@/components/ExperienceList";
+// import ExperienceList from "@/components/ExperienceList";
 import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
     <main className="border-[1px] border-t-0 border-black bg-grayLight p-4">
-      <section>
-        <div className="mx-auto grid max-w-[1200px] grid-cols-12">
-          <div className="col-start-3 col-end-11">
-            <h1 className="mt-20 p-8 font-nunito text-[3rem] leading-[0.8] text-blueDark lg:text-[6em]">
+      <div className="relative mx-auto mt-20 max-w-[1400px] grid-cols-12 gap-x-12 md:grid">
+        <aside className="relative col-start-1 col-end-6">
+          <div className="sticky top-40">
+            <h1 className="font-nunito text-[3rem] leading-[0.8] lg:text-[4em]">
               Oliver Mansfield
             </h1>
-            <h2 className="mt-4 text-[2rem] leading-[0.8] lg:mt-8 lg:text-[3em]">
+            <h2 className="mt-4 font-nunito text-[2rem] leading-[0.8] lg:mt-8 lg:text-[2em]">
               Senior Front End Developer
             </h2>
-          </div>
 
-          <div className="col-span-12 pt-16 md:col-start-3 md:col-end-11 md:pt-20">
-            <p className="pb-4 text-xl text-grayDarker">
-              Oliver is a developer with a decade of industry experience.
-              Delivering projects for large international clients and smaller
-              boutique shops.
-            </p>
-            <p className="text-grayDarker">
-              As confident in the UI Design phase as he is in the Front End
-              Build. Oliver is a developer with a decade of industry experience.
-              Delivering projects for large international clients and smaller
-              boutique shops.
-            </p>
+            <div className="col-span-12 pt-16 md:col-start-3 md:col-end-11 md:pt-20">
+              <p className="pb-4 text-xl text-grayDarker">
+                Oliver is a developer with a decade of industry experience.
+                Delivering projects for large international clients and smaller
+                boutique shops.
+              </p>
+              <p className="text-grayDarker">
+                As confident in the UI Design phase as he is in the Front End
+                Build. Oliver is a developer with a decade of industry
+                experience. Delivering projects for large international clients
+                and smaller boutique shops.
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </aside>
 
-      <section className="m-auto max-w-[1200px] py-16">
-        <div className="grid grid-cols-12">
+        <section className="col-start-7 col-end-13 mt-8 md:mt-0">
           <h4 className="col-start-3 col-end-11 mb-16">Selected projects</h4>
 
           <ProjectCard
@@ -59,19 +57,33 @@ export default function Home() {
             text="Modular Email Templates for Supermarket CRM"
             img="/images/morrisons-thumb.png"
           />
-        </div>
-      </section>
+          <ProjectCard
+            link="/morrisons"
+            title="Morrisons"
+            text="Modular Email Templates for Supermarket CRM"
+            img="/images/morrisons-thumb.png"
+          />
+          <ProjectCard
+            link="/morrisons"
+            title="Morrisons"
+            text="Modular Email Templates for Supermarket CRM"
+            img="/images/morrisons-thumb.png"
+          />
+        </section>
 
-      <section className="m-auto max-w-[1200px] py-16">
-        <div className="pb-8">
-          <h4>Experience</h4>
-          <span className="font-serif text-lg text-grayLight">2016 - 2024</span>
-        </div>
+        {/* <section className="m-auto max-w-[1200px] py-16">
+          <div className="pb-8">
+            <h4>Experience</h4>
+            <span className="font-serif text-lg text-grayLight">
+              2016 - 2024
+            </span>
+          </div>
 
-        <div>
-          <ExperienceList />
-        </div>
-      </section>
+          <div>
+            <ExperienceList />
+          </div>
+        </section> */}
+      </div>
     </main>
   );
 }
