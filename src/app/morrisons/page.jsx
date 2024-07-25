@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <main className="flex flex-col items-center border-[1px] border-t-0 border-black bg-grayLight">
-      <section className="mb-8 w-full p-4 md:mb-20 md:max-w-[1200px]">
+      <section className="mb-8 w-full p-4 md:mb-20 md:max-w-[1400px]">
         <div className="pb-2 pt-10 md:pb-20 lg:pt-20">
           <h1 className="mb-4 font-nunito text-5xl font-bold md:text-8xl">
             Morrisons
@@ -70,20 +70,20 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="mb-20 p-4 md:max-w-[1200px]">
+      <section className="mb-20 p-4 md:max-w-[1400px]">
         <div className="screenshot-frame-mobile overflow-hidden">
           <Image
             src="/images/morrisons-main.png"
             alt="Morrisons"
-            width="1200"
+            width="1400"
             height="500"
             className="w-full"
           />
         </div>
       </section>
 
-      <section className="mb-8 w-full p-4 md:mb-20 md:max-w-[1200px]">
-        <div className="grid grid-cols-1 gap-20 px-4 py-20 md:max-w-[1200px] md:grid-cols-2">
+      <section className="mb-8 w-full p-4 md:mb-20 md:max-w-[1400px]">
+        <div className="grid grid-cols-1 gap-20 px-4 py-20 md:max-w-[1400px] md:grid-cols-2">
           <div>
             <h4>The challenge</h4>
             <p>
@@ -115,12 +115,12 @@ export default function Page() {
         <Image
           src="/images/morrisons-showcase.png"
           alt="Morrisons"
-          width="1200"
+          width="1400"
           height="500"
         />
       </section>
 
-      <section className="md:max-w-[1200px]">
+      <section className="md:max-w-[1400px]">
         <div className="mb-20 grid grid-cols-1 gap-20 md:grid-cols-2">
           <Image
             src="/images/morrisons-mobile1.png"

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <main className="flex flex-col items-center border-[1px] border-t-0 border-black bg-grayLight">
-      <section className="mb-20 w-full p-4 md:max-w-[1200px]">
+      <section className="mb-20 w-full p-4 md:max-w-[1400px]">
         <div className="pb-8 pt-10 md:pb-20 lg:pt-20">
           <h1 className="mb-4 font-nunito text-5xl font-bold md:text-8xl">
             Ministry of Defence
@@ -65,7 +65,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="mb-20 w-full px-4 md:max-w-[1200px]">
+      <section className="mb-20 w-full px-4 md:max-w-[1400px]">
         <div className="justify-between md:flex">
           <div className="mb-4 md:w-1/2">
             <Image
@@ -91,7 +91,7 @@ export default function Page() {
       </section>
 
       <section className="mb-20 flex w-full justify-center bg-grayMid">
-        <div className="grid grid-cols-1 gap-20 px-4 py-20 md:max-w-[1200px] md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-20 px-4 py-20 md:max-w-[1400px] md:grid-cols-2">
           <div>
             <h4>The challenge</h4>
             <p>
@@ -122,7 +122,7 @@ export default function Page() {
           <Image
             src="/images/mod-showcase.png"
             alt="Morrisons"
-            width="1200"
+            width="1400"
             height="500"
           />
         </div>

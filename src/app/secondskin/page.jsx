@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <main className="flex flex-col items-center border-[1px] border-t-0 border-black bg-grayLight">
-      <section className="mb-8 w-full p-4 md:mb-20 md:max-w-[1200px]">
+      <section className="mb-8 w-full p-4 md:mb-20 md:max-w-[1400px]">
         <div className="pb-8 pt-10 md:pb-20 lg:pt-20">
           <h1 className="mb-4 font-nunito text-5xl font-bold md:text-8xl">
             Second Skin
@@ -81,7 +81,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="mb-20 px-4 md:max-w-[1200px]">
+      <section className="mb-20 px-4 md:max-w-[1400px]">
         <div className="overflow-hidden rounded-md border-[6px] border-black">
           <video autoPlay loop preload="auto" controls muted>
             <source src="/images/conor-movie.mp4" type="video/mp4" />
@@ -89,7 +89,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="mb-8 w-full p-4 md:mb-20 md:max-w-[1200px]">
+      <section className="mb-8 w-full p-4 md:mb-20 md:max-w-[1400px]">
         <div className="grid-cols-[150px_auto] gap-y-3 md:grid">
           <p className="text-gray-400">Features</p>
 
