@@ -16,8 +16,8 @@ export default function Home() {
 
             <div className="col-span-12 pt-16 md:col-start-3 md:col-end-11 md:pt-20">
               <p className="pb-4 text-xl text-grayDarker">
-                I'm a UK based developer with 11 years of industry experience
-                delivering high quality websites.
+                I&apos;m a UK based developer with 11 years of industry
+                experience delivering high quality websites.
               </p>
               <p className="pb-4 text-xl text-grayDarker">
                 I have been privileged to work in sectors including eCommerce,
