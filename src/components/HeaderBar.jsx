@@ -15,9 +15,9 @@ export default function HeaderBar() {
             {/* <span className="dot"></span>
           <p className="pr-8 italic font-nunito">Available as of July 2024</p> */}
 
-            <div className="flex h-full items-center border-l-[1px] border-black bg-orange-300 px-4 md:px-8">
+            {/* <div className="flex h-full items-center border-l-[1px] border-black bg-orange-300 px-4 md:px-8">
               <p className="font-nunito font-bold tracking-widest">CONTACT</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

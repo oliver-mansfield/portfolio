@@ -16,15 +16,17 @@ export default function Home() {
 
             <div className="col-span-12 pt-16 md:col-start-3 md:col-end-11 md:pt-20">
               <p className="pb-4 text-xl text-grayDarker">
-                Oliver is a developer with a decade of industry experience.
-                Delivering projects for large international clients and smaller
-                boutique shops.
+                I'm a UK based developer with 11 years of industry experience
+                delivering high quality websites.
               </p>
-              <p className="text-grayDarker">
-                As confident in the UI Design phase as he is in the Front End
-                Build. Oliver is a developer with a decade of industry
-                experience. Delivering projects for large international clients
-                and smaller boutique shops.
+              <p className="pb-4 text-xl text-grayDarker">
+                I have been privileged to work in sectors including eCommerce,
+                sustainability and premier sport.
+              </p>
+              <p className="pb-4 text-xl text-grayDarker">
+                I've delivered digital projects from concept to completion. From
+                wireframing, through design and build, to deployment and
+                maintenance.
               </p>
             </div>
           </div>
@@ -42,13 +44,13 @@ export default function Home() {
           <ProjectCard
             link="/ministry-of-defence"
             title="Ministry of Defence"
-            text="New Recruit sign up forms for the Ministry of Defence."
+            text="New Recruit onboarding forms for the Ministry of Defence."
             img="/images/mod-thumb.png"
           />
           <ProjectCard
             link="/professional-music-technology"
             title="Professional Music Technology"
-            text="eCommerce build for musical instrument store."
+            text="eCommerce build for musical instrument retailer."
             img="/images/pmt-thumb.png"
           />
           <ProjectCard
@@ -57,32 +59,7 @@ export default function Home() {
             text="Modular Email Templates for Supermarket CRM."
             img="/images/morrisons-thumb.png"
           />
-          <ProjectCard
-            link="/morrisons"
-            title="Morrisons"
-            text="Modular Email Templates for Supermarket CRM."
-            img="/images/morrisons-thumb.png"
-          />
-          <ProjectCard
-            link="/morrisons"
-            title="Morrisons"
-            text="Modular Email Templates for Supermarket CRM."
-            img="/images/morrisons-thumb.png"
-          />
         </section>
-
-        {/* <section className="m-auto max-w-[1200px] py-16">
-          <div className="pb-8">
-            <h4>Experience</h4>
-            <span className="font-serif text-lg text-grayLight">
-              2016 - 2024
-            </span>
-          </div>
-
-          <div>
-            <ExperienceList />
-          </div>
-        </section> */}
       </div>
     </main>
   );
