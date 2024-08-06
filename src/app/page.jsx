@@ -24,8 +24,8 @@ export default function Home() {
                 sustainability and premier sport.
               </p>
               <p className="pb-4 text-xl text-grayDarker">
-                I've delivered digital projects from concept to completion. From
-                wireframing, through design and build, to deployment and
+                I&apos;ve delivered digital projects from concept to completion.
+                From wireframing, through design and build, to deployment and
                 maintenance.
               </p>
             </div>
