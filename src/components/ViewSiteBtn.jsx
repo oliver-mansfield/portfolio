@@ -1,9 +1,9 @@
-export default function ViewSiteBtn({ text, url }) {
+export default function ViewSiteBtn({ text, url, className }) {
   return (
     <a
       href={url}
       target="_blank"
-      className="inline-block border-[1px] border-blueDark bg-blueDark px-8 py-4"
+      className={`inline-block border-[1px] border-blueDark bg-blueDark px-8 py-4 ${className}`}
     >
       <div className="flex">
         <span className="text-xl text-grayLight">{text}</span>
@@ -12,7 +12,7 @@ export default function ViewSiteBtn({ text, url }) {
           height="24px"
           viewBox="0 -960 960 960"
           width="24px"
-          className="fill-grayLight"
+          className="ml-4 fill-grayLight"
         >
           <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
         </svg>

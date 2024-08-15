@@ -1,4 +1,5 @@
 import ViewSiteBtn from "@/components/ViewSiteBtn";
+import GithubBtn from "@/components/GithubBtn";
 import Image from "next/image";
 
 export default function Page() {
@@ -76,7 +77,13 @@ export default function Page() {
             <ViewSiteBtn
               url="https://conorjoseph-shopify.vercel.app/"
               text="View the site"
+              className="mr-4 mt-8"
             ></ViewSiteBtn>
+            <GithubBtn
+              url="https://github.com/oliver-mansfield/conorjoseph-shopify"
+              text="GitHub Repo"
+              className="mt-8"
+            ></GithubBtn>
           </div>
         </div>
       </section>

@@ -5,7 +5,7 @@ export default function Page() {
     <main className="flex flex-col items-center border-[1px] border-t-0 border-black bg-grayLight">
       <section className="mb-20 w-full p-4 md:max-w-[1400px]">
         <div className="pb-8 pt-10 md:pb-20 lg:pt-20">
-          <h1 className="mb-4 font-nunito text-5xl font-bold md:text-8xl">
+          <h1 className="mb-4 font-serif text-5xl font-bold md:text-8xl">
             Ministry of Defence
           </h1>
           <p className="text-xl">

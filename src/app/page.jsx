@@ -59,6 +59,12 @@ export default function Home() {
             text="Modular Email Templates for Supermarket CRM."
             img="/images/morrisons-thumb.png"
           />
+          <ProjectCard
+            link="/trufl"
+            title="Trufl"
+            text="Home utility comparison start up."
+            img="/images/trufl-thumb.png"
+          />
         </section>
       </div>
     </main>
