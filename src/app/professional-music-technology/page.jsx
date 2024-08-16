@@ -88,7 +88,7 @@ export default function Page() {
       <section className="mb-20 flex w-full flex-col items-center justify-center px-4">
         <Image
           src="/images/pmt-hero.png"
-          alt="A screenshot of the home page of Professional Music Technology"
+          alt="A screenshot of a product page on Trufl.com"
           width="1400"
           height="1099"
           className="mb-10 overflow-hidden rounded-md border-[6px] border-black"
@@ -104,7 +104,7 @@ export default function Page() {
 
         <Image
           src="/images/pmt-cms.png"
-          alt="A screenshot of a product page for a guitar"
+          alt="A screenshot of a blog page"
           width="1400"
           height="1149"
           className="mb-10 overflow-hidden rounded-md border-[6px] border-black"
