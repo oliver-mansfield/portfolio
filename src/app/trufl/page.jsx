@@ -67,19 +67,26 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="mb-20 flex w-full flex-col items-center justify-center">
+      <section className="mb-20 flex w-full flex-col items-center justify-center px-4">
         <Image
           src="/images/trufl-desktop1.png"
           alt="A screenshot of the home page of trufl.com"
           width="1440"
-          height="986"
+          height="750"
           className="mb-10 overflow-hidden rounded-md border-[6px] border-black"
         />
         <Image
-          src="/images/trufl-blog-desktop.png"
+          src="/images/trufl-desktop2.png"
           alt="A screenshot of the home page of trufl.com"
           width="1440"
-          height="986"
+          height="1230"
+          className="mb-10 overflow-hidden rounded-md border-[6px] border-black"
+        />
+        <Image
+          src="/images/trufl-desktop3.png"
+          alt="A screenshot of the home page of trufl.com"
+          width="1440"
+          height="677"
           className="mb-10 overflow-hidden rounded-md border-[6px] border-black"
         />
       </section>

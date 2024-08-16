@@ -85,7 +85,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="mb-20 flex w-full flex-col items-center justify-center">
+      <section className="mb-20 flex w-full flex-col items-center justify-center px-4">
         <Image
           src="/images/pmt-hero.png"
           alt="A screenshot of the home page of Professional Music Technology"

@@ -1,4 +1,5 @@
 // import ExperienceList from "@/components/ExperienceList";
+import GithubBtn from "@/components/GithubBtn";
 import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
               Oliver Mansfield
             </h1>
             <h2 className="mt-4 font-nunito text-[2rem] leading-[0.8] lg:mt-8 lg:text-[2em]">
-              Senior Front End Developer
+              Front End Developer
             </h2>
 
             <div className="col-span-12 pt-16 md:col-start-3 md:col-end-11 md:pt-20">
@@ -29,10 +30,15 @@ export default function Home() {
                 maintenance.
               </p>
             </div>
+            <GithubBtn
+              text="My GitHub"
+              url="https://github.com/oliver-mansfield/conorjoseph-shopify"
+              className="mt-8"
+            />
           </div>
         </aside>
 
-        <section className="col-start-7 col-end-13 mt-8 md:mt-0">
+        <section className="col-start-7 col-end-13 mt-8 md:mt-[120px]">
           <h4 className="col-start-3 col-end-11 mb-16">Selected projects</h4>
 
           <ProjectCard

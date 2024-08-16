@@ -5,14 +5,14 @@ export default function ProjectCard({ link, title, text, img }) {
   return (
     <Link
       href={link}
-      className="project-card relative mb-12 grid min-h-[150px] w-full grid-cols-12 border-[1px] border-black bg-white p-4"
+      className="project-card relative mb-12 grid min-h-[150px] w-full grid-cols-12 border-[2px] border-blueDark bg-white p-4"
     >
       <div className="col-span-8 lg:col-end-9">
-        <h3>{title}</h3>
+        <h3 className="text-blueDark">{title}</h3>
       </div>
       <div className="col-span-12 mt-4 mt-auto lg:col-span-8">
         <p>{text}</p>
-        <p className="font-sans text-blueDark underline">View project</p>
+        <p className="mt-4 font-sans text-blueDark underline">View project</p>
       </div>
       <div className="perspective absolute right-[-5px] top-[-15px] max-w-[110px] lg:right-[-10px] lg:top-[-20px] lg:max-w-[180px]">
         <Image

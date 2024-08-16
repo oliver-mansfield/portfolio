@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
       >
         <div>
           <HeaderBar />
-          <div className="bg-grayDark pb-2 pl-2 pr-2 md:pb-4 md:pl-4 md:pr-4">
+          <div className="bg-grayDark pb-10 pl-2 pr-2 md:pb-20 md:pl-4 md:pr-4">
             <Analytics />
             {children}
           </div>
