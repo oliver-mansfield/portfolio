@@ -6,45 +6,45 @@ export default function Home() {
   return (
     <main className="border-[1px] border-t-0 border-black bg-grayLight p-4">
       <div className="relative mx-auto mt-20 max-w-[1400px] grid-cols-12 gap-x-12 md:grid">
-        <aside className="relative col-start-1 col-end-6">
-          <div className="sticky top-40">
-            <h1 className="font-nunito text-[3rem] leading-[0.8] lg:text-[4em]">
-              Oliver Mansfield
-            </h1>
-            <h2 className="mt-4 font-nunito text-[2rem] leading-[0.8] lg:mt-8 lg:text-[2em]">
-              Front End Developer
-            </h2>
-
-            <div className="col-span-12 pt-16 md:col-start-3 md:col-end-11 md:pt-20">
-              <p className="pb-4 text-xl text-grayDarker">
-                I&apos;m a UK based developer with 11 years of industry
-                experience delivering high quality websites.
-              </p>
-              <p className="pb-4 text-xl text-grayDarker">
-                I have been privileged to work in sectors including eCommerce,
-                sustainability and premier sport.
-              </p>
-              <p className="pb-4 text-xl text-grayDarker">
-                I&apos;ve delivered digital projects from concept to completion.
-                From wireframing, through design and build, to deployment and
-                maintenance.
-              </p>
-            </div>
-            <GithubBtn
-              text="My GitHub"
-              url="https://github.com/oliver-mansfield/conorjoseph-shopify"
-              className="mt-8"
-            />
+        <div className="relative col-start-1 col-end-12 mb-20">
+          <h1 className="font-nunito text-[3rem] leading-[0.8] lg:text-[6em]">
+            Oliver Mansfield
+          </h1>
+          <h2 className="mt-4 font-nunito text-[2rem] leading-[0.8] lg:mt-8 lg:text-[2em]">
+            Front End Developer, UI Designer.
+          </h2>
+        </div>
+        <section className="relative col-start-1 col-end-6">
+          {/* <h4 className="col-start-3 col-end-11 mb-16">About me</h4> */}
+          <div className="col-span-12 md:col-start-3 md:col-end-11">
+            <p className="pb-4 text-xl text-grayDarker">
+              I&apos;m a UK based developer with 11 years of industry experience
+              delivering high quality websites.
+            </p>
+            <p className="pb-4 text-xl text-grayDarker">
+              I have been privileged to work in sectors including eCommerce,
+              sustainability and premier sport.
+            </p>
+            <p className="pb-4 text-xl text-grayDarker">
+              I&apos;ve delivered digital projects from concept to completion.
+              From wireframing, through design and build, to deployment and
+              maintenance.
+            </p>
           </div>
-        </aside>
+          <GithubBtn
+            text="My GitHub"
+            url="https://github.com/oliver-mansfield"
+            className="mt-8"
+          />
+        </section>
 
-        <section className="col-start-7 col-end-13 mt-8 md:mt-[120px]">
+        <section className="col-start-7 col-end-13">
           <h4 className="col-start-3 col-end-11 mb-16">Selected projects</h4>
 
           <ProjectCard
             link="/secondskin"
             title="Second Skin"
-            text="Headless eCommerce. Design and build."
+            text="Headless eCommerce using Shopify. Design and build."
             img="/images/secondskin-thumb.png"
           />
           <ProjectCard
