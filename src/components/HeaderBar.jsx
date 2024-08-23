@@ -5,8 +5,19 @@ export default function HeaderBar() {
     <header className="sticky top-0 z-10 bg-grayDark px-2 pt-2 md:px-4 md:pt-4">
       <div className="h-10 border-[1px] border-black bg-grayMid">
         <div className="flex h-full justify-between">
-          <Link href="/" className="flex items-center pl-4 md:pl-8">
-            <h1 className="text-center font-nunito text-xl">
+          <Link href="/" className="flex items-center pl-4">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="mr-3"
+            >
+              <circle cx="8" cy="8" r="8" fill="#0922FF" />
+            </svg>
+
+            <h1 className="pt-[2px] text-center font-nunito text-xl">
               OLIVER MANSFIELD
             </h1>
           </Link>
