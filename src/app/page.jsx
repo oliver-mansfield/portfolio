@@ -31,15 +31,17 @@ export default function Home() {
               maintenance.
             </p>
           </div>
-          <GithubBtn
+          {/* <GithubBtn
             text="My GitHub"
             url="https://github.com/oliver-mansfield"
             className="mt-8"
-          />
+          /> */}
         </section>
 
         <section className="col-start-7 col-end-13">
-          <h4 className="col-start-3 col-end-11 mb-16">Selected projects</h4>
+          <h4 className="col-start-3 col-end-11 mb-16 mt-8 md:mt-0">
+            Selected projects
+          </h4>
 
           <ProjectCard
             link="/secondskin"
