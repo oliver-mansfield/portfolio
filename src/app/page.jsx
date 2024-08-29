@@ -18,7 +18,7 @@ export default function Home() {
           {/* <h4 className="col-start-3 col-end-11 mb-16">About me</h4> */}
           <div className="col-span-12 md:col-start-3 md:col-end-11">
             <p className="pb-4 text-xl text-grayDarker">
-              I&apos;m a UK based developer with 11 years of industry experience
+              I&apos;m a UK based developer with a wealth of industry experience
               delivering high quality websites.
             </p>
             <p className="pb-4 text-xl text-grayDarker">
