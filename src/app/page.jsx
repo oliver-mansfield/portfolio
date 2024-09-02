@@ -1,5 +1,4 @@
-// import ExperienceList from "@/components/ExperienceList";
-import GithubBtn from "@/components/GithubBtn";
+import ViewSiteBtn from "@/components/ViewSiteBtn";
 import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
@@ -31,11 +30,11 @@ export default function Home() {
               maintenance.
             </p>
           </div>
-          {/* <GithubBtn
-            text="My GitHub"
-            url="https://github.com/oliver-mansfield"
-            className="mt-8"
-          /> */}
+          <ViewSiteBtn
+            url="https://www.linkedin.com/in/oliver-mansfield-90996279/"
+            text="My LinkedIn"
+            className="mr-4 mt-8"
+          ></ViewSiteBtn>
         </section>
 
         <section className="col-start-7 col-end-13">
