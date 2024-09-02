@@ -48,30 +48,51 @@ export default function Home() {
             title="Second Skin"
             text="Headless eCommerce using Shopify. Design and build."
             img="/images/secondskin-thumb.png"
+            techUsed={[
+              "React.js",
+              "Next.js",
+              "Tailwind",
+              "GraphQL Shopify API",
+              "Redux Toolkit",
+              "GSAP Animation",
+            ]}
           />
           <ProjectCard
             link="/ministry-of-defence"
             title="Ministry of Defence"
             text="New Recruit onboarding forms for the Ministry of Defence."
             img="/images/mod-thumb.png"
+            techUsed={[
+              "HTML with .NET Razor Templates",
+              "CSS/SCSS",
+              ".NET Web Forms",
+            ]}
           />
           <ProjectCard
             link="/professional-music-technology"
             title="Professional Music Technology"
             text="eCommerce build for musical instrument retailer."
             img="/images/pmt-thumb.png"
+            techUsed={[
+              "Magento 2",
+              "HTML",
+              "CSS/LESS",
+              "JavaScript with Knockout.js",
+            ]}
           />
           <ProjectCard
             link="/morrisons"
             title="Morrisons"
             text="Modular Email Templates for Supermarket CRM."
             img="/images/morrisons-thumb.png"
+            techUsed={["HTML", "CSS/SCSS", "Custom CMS"]}
           />
           <ProjectCard
             link="/trufl"
             title="Trufl"
             text="Home utility comparison start up."
             img="/images/trufl-thumb.png"
+            techUsed={["Vue.js", "Nuxt.js", "HTML", "CSS/SCSS", "JavaScript"]}
           />
         </section>
       </div>
